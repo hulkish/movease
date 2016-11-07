@@ -1,14 +1,21 @@
 {
-  "name": "js-coding-challenge",
-  "version": "0.1.0",
+  "name": "movease",
+  "version": "0.0.0",
   "description": "JS Server for WDI code challenge",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/hulkish/movease.git"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Neel Patel <neelp22@gmail.com> (https://github.com/darthneel)",
-  "license": "ISC",
+  "author": "Steven Hargrove <steven.hargrove@gmail.com> (https://github.com/hulkish)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "dependencies": {
     "express": "^4.12.2",
     "body-parser": "^1.12.0"

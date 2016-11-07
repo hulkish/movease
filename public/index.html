@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movease!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container" id="moveaseApp">
+      <div class="row">
+        <div class="col">
+          <div class='card'>
+            <div class='card__content'>
+              <form name"searchForm" id="searchForm" action="/">
+                <div class='row'>
+                  <div class='col'>
+                    <input class="control" name="movieTitle" type="text" autofocus placeholder="Search movie by title"/>
+                  </div>
+                  <div class='col is-not-fluid'>
+                    <button type="search" class="btn">Search</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class='movie-list' id="movieList"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/movie.service.js"></script>
+    <script src="js/search-form.view.js"></script>
+    <script src="js/movie-list.view.js"></script>
+    <script src="js/app.view.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
